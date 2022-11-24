@@ -5,7 +5,7 @@ import data from './data.json';
 import ReadOnlyRow from './Row';
 import {nanoid} from 'nanoid';
 import Tableh from './table';
-
+// Data fatch and show in the table ///////
 function App() {
   const [contacts,setContacts] = useState(data);
   const [addformdata,setAddformdata] = useState({
